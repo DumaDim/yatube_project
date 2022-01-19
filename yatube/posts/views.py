@@ -4,8 +4,5 @@ from django.http import HttpResponse
 def index(request):
     return HttpResponse('Основное меню')
 
-def group_posts(request):
-    return HttpResponse('Группы постов')
-
-def group_posts_1(request, pk):
-    return HttpResponse(f'Группа постов номер {pk}')
+def group_posts(request, slug):
+    return HttpResponse(f'Группа постов {slug}')
