@@ -13,7 +13,7 @@ Python 3.10, Django 2.2.19
 python -m venv venv
 ```
 ```
-source venv/bin/activate
+source venv/Scripts/activate
 ```
 
 Установите зависимости из файла requirements.txt
