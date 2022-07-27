@@ -1,4 +1,4 @@
-﻿**# yatube_project**
+# yatube_project
 
 **«Социальная сеть блогеров»**
 
